@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Calibri";
+}
+body{
+    position: relative;
+    width: 100%;
+    height: 3352px;
+    background-image: url("img/water-7655314__340.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+main{
+    position: absolute;
+    width: 100%;
+    height: 3352px;
+    /* background: rgba(34, 24, 24, 0.6); */
+}
+
+/*-----------------  Header -----------------*/
+
+header h3{
+    color: #CB0D0D;
+}
+.navbar{
+    background: #490909;
+} 
+.navbar-nav{
+    width: 40%;
+}
+.nav-link{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+/*-----------------  Section 1 ----------------*/
+.col3{
+    position: relative;
+    z-index: 0;
+}
+.abs_haut{
+    position: absolute;
+    /* width: 413px; */
+    width: 25%;
+    height: 150px;
+    bottom: 78%;
+    left: 68%;
+    background: #F6E1C5;
+    border-radius: 5.03031px;
+}
+.abs_bas{
+    position: absolute;
+    /* width: 521px; */
+    width: 43%;
+    height: 189px;
+    bottom: 3%;
+    left: -2%;
+    background: #F6E1C5;
+    border-radius: 5.03031px;
+}
+.abs_haut p{
+    line-height: 17px;
+    font-weight: bold;
+}
+.abs_haut h3{
+    font-weight: lighter;
+    line-height: 22px;
+}
+
+/*-----------------  footer -----------------*/
+
+footer{
+    position:absolute;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 6%;
+    background: #311919;
+    color: #ffff;
+}

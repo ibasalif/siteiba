@@ -1,0 +1,101 @@
+@media screen and (max-width: 881px) {
+    body{
+        width: 100%;
+        height: 3100px;
+    }
+    main{
+        width: 100%;
+        height: 3100px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    body{
+        width: 100%;
+        height: 3352px;
+    }
+    main{
+        width: 100%;
+        height: 3352px;
+    }
+
+    .abs_haut{
+        position: relative;
+        /* width: 413px; */
+        width: 100%;
+        height: 100%;
+        left: 0%;
+        padding: 5% 5%;
+        margin: 5% 0%;
+    }
+    .abs_bas{
+        position: relative;
+        /* width: 521px; */
+        width: 100%;
+        height: 100%;
+        left: 0%;
+        padding: 5% 5%;
+        margin: 5% 0%;
+    }
+}
+@media screen and (max-width: 700px) {
+    body{
+        width: 100%;
+        height: 3200px;
+    }
+    main{
+        width: 100%;
+        height: 3200px;
+    }
+}
+@media screen and (max-width: 642px) {
+    body{
+        width: 100%;
+        height: 3000px;
+    }
+    main{
+        width: 100%;
+        height: 3000px;
+    }
+}
+@media screen and (max-width: 592px) {
+    body{
+        width: 100%;
+        height: 2800px;
+    }
+    main{
+        width: 100%;
+        height: 2800px;
+    }
+}
+@media screen and (max-width: 550px) {
+    body{
+        width: 100%;
+        height: 2600px;
+    }
+    main{
+        width: 100%;
+        height: 2600px;
+    }
+}
+@media screen and (max-width: 400px) {
+    body{
+        width: 100%;
+        height: 2400px;
+    }
+    main{
+        width: 100%;
+        height: 2400px;
+    }
+}
+@media screen and (max-width: 350px) {
+    body{
+        width: 100%;
+        height: 2200px;
+    }
+    main{
+        width: 100%;
+        height: 2200px;
+    }
+}
